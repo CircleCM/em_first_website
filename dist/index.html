@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/fd62035374.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/simplelightbox.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Mr. M - Headphone of the future</title>
+
+</head>
+
+<body id="Home">
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Mr. M</h1>
+      <ul class="nav">
+        <li><a href="#HOME">Home</a></li>
+        <li><a href="#ABOUT">About</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--Showcase-->
+  <section class="section-a">
+    <div class="container">
+      <div>
+        <h1>กล้องก็โปร จอภาพก็โปร</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus ad distinctio accusantium atque cum
+          quis cupiditate molestiae ullam, tempora, pariatur minus. Dolor eaque mollitia ipsam dignissimos ratione vel
+          tenetur. Adipisci.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+      <img src="img/ip11s.jpeg" alt="">
+    </div>
+  </section>
+
+  <!--Overlay Text-->
+  <section class="section-b">
+    <div class="overlay">
+      <div class="section-b-inner">
+        <h3>พอเหมาะพอดี</h3>
+        <h2>ทำไมซื้อที่ Apple ถึงดีที่สุด</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sit recusandae.</p>
+      </div>
+    </div>
+  </section>
+  <!--Gallery-->
+  <section class="section-c">
+    <div class="gallery">
+      <a href="img/ip11.10.jpg" class="big"><img src="img/ip11.10.jpg" alt=""></a>
+      <a href="img/ip11.11.jpg" class="big"><img src="img/ip11.11.jpg" alt=""></a>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="section-footer">
+    <div class="container">
+      <div>
+        <h2>@mponrat</h2>
+        <a href="http://twitter.com">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a href="http://facebook.com">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a href="http://linkedin.com">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+      </div>
+      <div>
+        <h3>Company info</h3>
+        <ul>
+          <li><a href="#">All Product</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Subscribe</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, illo?</p>
+        <form name="email-form" method="post" data-netify="ture">
+          <div class="email-form">
+            <span class="form-control-wrap">
+              <input type="email" name="email" id="email" size="40" class="form-control" placeholder="Email" />
+            </span>
+            <button type="submit" class="form-control submit">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="js/simple-lightbox.min.js"></script>
+  <script>
+    $(function () {
+      const $gallery = $('.gallery a').simpleLightbox();
+    });
+  </script>
+</body>
+
+</html>
